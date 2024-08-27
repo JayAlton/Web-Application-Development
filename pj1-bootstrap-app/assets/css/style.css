@@ -1,0 +1,66 @@
+/* Full Background Image */
+
+.bg-image {
+    background: url('../image/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Optional: Text Styling */
+  .bg-image .text-white {
+    color: #fff;
+  }
+  
+  /* Optional: Adjust text size for different screen sizes */
+  @media (max-width: 768px) {
+    .bg-image .display-4 {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .bg-image .display-4 {
+      font-size: 2rem;
+    }
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    height: 60px;
+  }
+
+  .has-sidebar {
+    padding-left: 200px; /* Width of the sidebar */
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    overflow-y: auto;
+    width: 200px;
+    background-color: #b8b9b9;
+  }
+  
+  .sidebar .nav-link {
+    color: #f2f2f2;
+  }
+  
+  .sidebar .nav-link.active {
+    background-color: #ffffff;
+    color: #0f0f0f;
+  }
+  .container-fluid {
+    padding-left:200px;
+  }
+  .container-sm {
+    padding-top:75px;
+  }
