@@ -16,6 +16,7 @@ function App() {
         </Toolbar>
       </AppBar>
       <Box>
+        <Outlet />
         {/* Main Content */}
       </Box>
     </>

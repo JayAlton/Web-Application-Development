@@ -12,8 +12,10 @@
   "dependencies": {
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^6.1.2",
+    "bootstrap": "^5.3.3",
     "pj2-react-vite": "file:",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
     "vim": "^0.1.0"

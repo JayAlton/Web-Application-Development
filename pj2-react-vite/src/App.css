@@ -40,3 +40,58 @@
 .read-the-docs {
   color: #888;
 }
+
+.tasks-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column {
+  width: 30%;
+  margin: 20px;
+}
+.box {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.NewTasks {
+  background-color: #ff0707;
+}
+
+.InProgress {
+  background-color: #28a745;
+}
+
+.Completed {
+  background-color: #007bff;
+}
+
+.box h2 {
+  margin-top: 0;
+}
+
+.box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.box li:last-child {
+  border-bottom: none;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
