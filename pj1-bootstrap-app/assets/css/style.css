@@ -58,9 +58,12 @@
     background-color: #ffffff;
     color: #0f0f0f;
   }
+  body {
+    padding-top: 70px;
+  }
   .container-fluid {
-    padding-left:200px;
+    padding-top:15px;
   }
   .container-sm {
-    padding-top:75px;
+    padding-top:15px;
   }
