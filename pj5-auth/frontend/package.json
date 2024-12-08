@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/material": "^6.1.8",
+    "axios": "^1.7.7",
+    "frontend": "file:"
+  },
+  "name": "frontend",
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "version": "1.0.0",
+  "main": "eslint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,5 @@
+[
+    {"id": 1, "name": "New", "color":"red"},
+    {"id": 2, "name": "In Progress", "color":"blue"},
+    {"id": 3, "name": "Completed", "color":"green"}
+]
