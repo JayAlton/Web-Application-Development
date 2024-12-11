@@ -34,6 +34,17 @@ app.use(
     })
 );
 app.use(express.json()); // Parse JSON request bodies
+let tasks = [];
+app.post('/api/tasks', (req, res) => {
+    const { name, type_id } = req.body;
+    const newTask = { id: tasks.length + 1, name, type_id }; // Simple ID generation
+    tasks.push(newTask);
+    res.status(201).json(newTask); // Respond with the created task
+});
+
+app.get('/api/tasks', (req, res) => {
+    res.json(tasks);
+});
 
 // Sample route for text response
 app.get('/', (req, res) => {

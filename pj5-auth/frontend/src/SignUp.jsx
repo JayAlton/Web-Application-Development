@@ -45,9 +45,12 @@ const SignUp = () => {
             margin="normal"
             required
             fullWidth
-            label="User Name" // Changed label to Username
+            label="Username" // Changed label to Username
             value={user_name} // Use username state
-            onChange={(e) => setUsername(e.target.value)} // Update username state
+            onChange={(e) => {
+              setUsername(e.target.value);
+              console.log('user_name:', e.target.value); // Debugging line
+          }} // Update username state
             autoComplete="user_name" // Optional: Change this if needed
           />
           <TextField
